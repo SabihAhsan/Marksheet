@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     var StudentId = prompt("Enter Your Student ID")
+     var StudentName = prompt("Enter Your Student Name")
+     var StudentClass = prompt("Enter Your Student Class")
+
+     var Subject = 5
+     var TotalScore = 500
+
+     var English = prompt("Enter Your English Marks")
+     var Urdu = prompt("Enter Your Urdu Marks")
+     var Maths = prompt("Enter Your Maths Marks")
+     var Islamiat = prompt("Enter Your Islamiat Marks")
+     var Science = prompt("Enter Your Science Marks") 
+
+     var GainingScore = English + Urdu + Maths + Islamiat + Science
+     var Percentage  = GainingScore / TotalScore * 100
+
+     document.write(`The ID of Student is ${StudentId} <br> `)
+     document.write(`The Name of Student is ${StudentName} <br> `)
+     document.write(`The Class of Student is ${StudentClass} <br> `)
+
+     document.write(`The Score of English is ${English} <br> `)
+     document.write(`The Score of Urdu is ${Urdu} <br> `)
+     document.write(`The Score of Maths is ${Maths} <br> `)
+     document.write(`The Score of Islamiat is ${Islamiat} <br> `)
+     document.write(`The Score of Science is ${Science} <br> `)
+
+
+     document.write(`The Gaining Score of Student is ${GainingScore} <br> `)
+     document.write(`The Percentage of Student is ${Percentage} <br> `)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
